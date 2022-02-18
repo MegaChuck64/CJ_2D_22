@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WpfInterop" Version="1.9.2" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="19.4.0.47" />
+    <PackageReference Include="Syncfusion.Themes.MaterialDark.WPF" Version="19.4.0.47" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="19.4.0.47" />
+  </ItemGroup>
+
+</Project>
